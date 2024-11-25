@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import ButtonComponent from './components/ButtonComponent'
+import ImageComponent from './components/ImageComponent'
 
 function App() {
   return (
@@ -18,8 +20,12 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        <ButtonComponent />
+        <ImageComponent src="rocky-v.webp" alt="Rocky V" />
+      </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
